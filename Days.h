@@ -8,3 +8,5 @@ using namespace std::chrono;
 
 timedResult Day1Challenge1();
 timedResult Day1Challenge2();
+timedResult Day2Challenge1();
+timedResult Day2Challenge2();

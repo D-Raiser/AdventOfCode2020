@@ -1,7 +1,7 @@
 #include "Days.h"
 
 timedResult Day1Challenge1() {
-	vector<int> input = readFile("d1c1.txt");
+	vector<int> input = readFile("d1.txt");
 	auto start = high_resolution_clock::now();
 	timedResult out{};
 
@@ -22,7 +22,7 @@ timedResult Day1Challenge1() {
 }
 
 timedResult Day1Challenge2() {
-	vector<int> input = readFile("d1c1.txt");
+	vector<int> input = readFile("d1.txt");
 	auto start = high_resolution_clock::now();
 	timedResult out{};
 
