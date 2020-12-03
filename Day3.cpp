@@ -5,7 +5,7 @@ vector<vector<bool>> readDay3File(string filename);
 timedResult Day3Challenge1() {
 	vector<vector<bool>> input = readDay3File("d3.txt");
 	auto start = high_resolution_clock::now();
-	timedResult out{};
+	timedResult out{ 0 };
 
 	int posX = 0;
 	int width = input[0].size();
@@ -22,7 +22,7 @@ timedResult Day3Challenge1() {
 timedResult Day3Challenge2() {
 	vector<vector<bool>> input = readDay3File("d3.txt");
 	auto start = high_resolution_clock::now();
-	timedResult out{};
+	timedResult out{ 0 };
 
 	int width = input[0].size();
 
