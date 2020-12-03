@@ -10,3 +10,5 @@ timedResult Day1Challenge1();
 timedResult Day1Challenge2();
 timedResult Day2Challenge1();
 timedResult Day2Challenge2();
+timedResult Day3Challenge1();
+timedResult Day3Challenge2();

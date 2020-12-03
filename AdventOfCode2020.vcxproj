@@ -142,6 +142,7 @@
     <ClCompile Include="AdventOfCode2020.cpp" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="Day2.cpp" />
+    <ClCompile Include="Day3.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +152,7 @@
   <ItemGroup>
     <Text Include="d1.txt" />
     <Text Include="d2.txt" />
+    <Text Include="d3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,7 @@
 #include "Days.h"
 
+vector<int> readFile(string name);
+
 timedResult Day1Challenge1() {
 	vector<int> input = readFile("d1.txt");
 	auto start = high_resolution_clock::now();
@@ -49,5 +51,17 @@ timedResult Day1Challenge2() {
 	}
 
 	out.timeMs = duration_cast<microseconds>(high_resolution_clock::now() - start).count();
+	return out;
+}
+
+vector<int> readFile(string filename) {
+	string line;
+	ifstream file(filename);
+	vector<int> out;
+
+	while (getline(file, line)) {
+		out.push_back(stoi(line));
+	}
+	file.close();
 	return out;
 }

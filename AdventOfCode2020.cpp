@@ -11,7 +11,7 @@ int main()
 	cout << "Advent Of Code 2020:" << endl;
 	printDay(1, Day1Challenge1(), Day1Challenge2());
 	printDay(2, Day2Challenge1(), Day2Challenge2());
-	printDay(3, d, d);
+	printDay(3, Day3Challenge1(), Day3Challenge2());
 	printDay(4, d, d);
 	printDay(5, d, d);
 	printDay(6, d, d);

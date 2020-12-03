@@ -6,15 +6,3 @@ void printDay(int day, timedResult c1, timedResult c2) {
 	cout << "\t2: " << c2.result << " (" << c2.timeMs << "us)" << endl;
 	return;
 }
-
-vector<int> readFile(string filename) {
-	string line;
-	ifstream file(filename);
-	vector<int> out;
-
-	while (getline(file, line)) {
-		out.push_back(stoi(line));
-	}
-	file.close();
-	return out;
-}
